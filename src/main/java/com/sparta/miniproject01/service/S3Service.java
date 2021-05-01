@@ -23,10 +23,10 @@ import java.util.Date;
 public class S3Service {
     private AmazonS3 s3Client;
 
-    @Value( "AKIA5VJGPDGH25MYPISA")
+    @Value( "")
     private String accessKey;
 
-    @Value("lrD8CYDc+Z6gYL5rjaCS4Z6mYhqBdGmr9H2PHM9Z")
+    @Value("")
     private String secretKey;
 
     @Value("articleimg")
